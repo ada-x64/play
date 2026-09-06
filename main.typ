@@ -1,15 +1,22 @@
-#import("lib/lib.typ"): hr, conf
+#import "lib/lib.typ": conf, hr
 #show: conf
+
+#set document(
+  title: "Play",
+  author: "Phoenix Mandala",
+  date: none,
+  description: "On the epistemology of play",
+)
 
 #outline() #hr
 
-#include("notes/notes.typ")
+#include "notes/notes.typ"
 #hr
 
-#include("notes/quotes.typ")
+#include "notes/quotes.typ"
 #hr
 
-#include("chapters/1. defining play.typ")
+#include "chapters/1. defining play.typ"
 #hr
 
-#bibliography("lib/bib.bib", style: "chicago-author-date")
+#bibliography("bib.yaml", style: "chicago-author-date")

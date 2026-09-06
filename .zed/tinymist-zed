@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Keep Tinymist's stdio clean for LSP while capturing its diagnostics.
+set -u
+
+workspace="/home/ada/repos/ada-x64/typst-play-essay"
+binary="$workspace/out/tinymist-0.15.4/tinymist-x86_64-unknown-linux-gnu/tinymist"
+log="$workspace/out/tinymist-zed.log"
+
+if [[ ! -x "$binary" ]]; then
+  printf 'Tinymist binary is missing or not executable: %s\n' "$binary" >&2
+  exit 127
+fi
+
+mkdir -p "$workspace/out"
+{
+  printf '\n===== Zed Tinymist start: %s =====\n' "$(date --iso-8601=seconds)"
+  printf 'binary: %s\n' "$binary"
+  printf 'cwd: %s\n' "$PWD"
+  printf 'args:'
+  printf ' %q' "$@"
+  printf '\n'
+} >>"$log"
+
+export RUST_LOG="${RUST_LOG:-tinymist=debug,tinymist_preview=debug,tinymist_project=info}"
+exec "$binary" "$@" 2>>"$log"

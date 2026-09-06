@@ -46,7 +46,7 @@ boundaries until something comes loose and we re-conceptualize.
 
 I do not want this to be a totalizing account of epistemology. It is, like all
 good philosophies, about a _particular_ manner of engaging with the world. It is
-itself a playful stance, an aesthetic, which can account for other aesthetics. 
+itself a playful stance, an aesthetic, which can account for other aesthetics.
 Hans' account fails to avoid totalization despite attempts.
 
 == Key Concepts
@@ -60,7 +60,7 @@ there is mechanical play (play broadly construed to include e.g. physical
 notions of play), being-playful (play construed as a willingness to mold or
 shift one's perspective, to _break_ the rules or to bend them), play as
 rule-following (e.g. striving play, wherein one takes on the temporary goals of
-a game so as to accomplish some meta-level goal). 
+a game so as to accomplish some meta-level goal).
 
 Play as rule-following, our typical playful activity, is an interesting case
 because it is simultaneously mechanical and meta-level. Our concerns are only
@@ -102,9 +102,9 @@ calls this the place of absolute nothingness (_basho no zettai mu_). De Sassure
 and Derrida might consider it the space in which the differential between
 concepts occurs, the background on which _différance_ is made manifest. For
 Heidegger it is similar to _das Nichts_ or _der Lichtung,_ the formless
-nothingness from which all Being springs forth. 
+nothingness from which all Being springs forth.
 
-Each of these accounts point toward a meta-level consciousness, something that is beyond the direct layer of perception. I take Albahari's term _witness consciousness_ to describe this higher-level perception. 
+Each of these accounts point toward a meta-level consciousness, something that is beyond the direct layer of perception. I take Albahari's term _witness consciousness_ to describe this higher-level perception.
 
 + Structural rigidty
   - Mechanical play vs transformative play -- mechanical play occurs _within_
@@ -113,7 +113,7 @@ Each of these accounts point toward a meta-level consciousness, something that i
 + Domain
   - physical, mechanical, rule-bound
     - physical laws, rule-bound play, _deterministically automatable,_ "games" in the "game theory" sense.
-    - This sense of play is not necessarily agentic. Agents definitely play like this, but not _only_ agents exhibit this sort of behavior. 
+    - This sense of play is not necessarily agentic. Agents definitely play like this, but not _only_ agents exhibit this sort of behavior.
       - Is this a credible notion of "play?" Is this not just 'stochastic
         behavior?' -- There seems to be a sort of _stategic incentive_ to reach an
         optimistic state. Physical phenomena certainly achieve this. Though it
@@ -146,9 +146,9 @@ Much like learning carpentry, you must first strip a few screws before you know
 when to stop.
 
 === Ecstasy
-  - Being outside of oneself
-  - Key argument: This is the default. Self-awareness is not the default point of view.
-  
+- Being outside of oneself
+- Key argument: This is the default. Self-awareness is not the default point of view.
+
 Self-awareness occurs precisely at the moment when our perceptual rules break
 down, when our symbolizing structures need to be updated.
 
@@ -156,14 +156,14 @@ We are by default 'lost in the sauce' of our symbolic structures. We are too
 busy playing the game to think existentially, ontologically. We are alerted to
 the ontic when we have an encounter with the aesthetic, that is, with beauty; or
 when we are confronted with the traumatic.
-  
+
 === Entanglement
 
 Hans talks about grafts on fields of production. This is basically the same
 thing as the entanglement. Our fields of production came from random sources and
 are based on a tradition, and it is the acknowledgement of the tradition which
 makes the new grafts possible. It is both transcendent and immanent, meta and
-base level, in a circle, or better, a Möbius strip. Cf the hermeneutic circle. 
+base level, in a circle, or better, a Möbius strip. Cf the hermeneutic circle.
 
 Production is the production of _anything,_ production generally construed.
 Production of goods, of services, of action in general. Play then as the way
@@ -175,16 +175,16 @@ potentially opens us up to new fields of play.
 
 === Desire
 
-Desiring-production at the heart of Hans' conception of play. Two kinds of production: ecstatic production and violent production. Both are intertwined. 
+Desiring-production at the heart of Hans' conception of play. Two kinds of production: ecstatic production and violent production. Both are intertwined.
 This is my conception of play and trauma; willing play and unwilling play;
 willing reorientation and unwilling reorientation; it is the difference between
-exhilaration and chaos. 
+exhilaration and chaos.
 
 === The Aesthetic
 
 The aethetic: ways of _seeing;_ they are 'fields of play' or sets of rules to follow, they are ontologies and epistemologies which shape our worldviews. This is _felt_ as well as it is theorized. It is _experienced,_ _lived_ in the full sense of the term. It is a manner of our Being-in-the-world, the fundamental root of our existential conditions. But what early Heidegger misunderstood is that there are many of them, and that we are always switching between them; that the fields of play are intermeshed, and the boundaries can blur. (How does this square with the rule-bound conception? Ethics as aesthetics, or the rules by which an aesthetic is bound? -- but that's a different essay.)
 
-=== Design and Metagaming 
+=== Design and Metagaming
 
 Design is the art of crafting experiences. Metagaming is the practice of
 grafting. Both tie into the aesthetic, into fields of play: they create new
@@ -202,15 +202,15 @@ train the designer. (Is that the right phrasing?)
 On ekstasis in the literary tradition on aesthetics:
 
 #quote(block: true)[
-Suggested reading path
+  Suggested reading path
 
-+ Longinus, On the Sublime (Fyfe/Russell trans.)
-+ ✅ Kant, Critique of Judgment, Analytic of the Sublime
-+ ✅ Nietzsche, The Birth of Tragedy
-+ Bataille, Inner Experience
-+ Gadamer, Truth and Method, Part I
-+ Weiskel, The Romantic Sublime; Hertz, The End of the Line
-+ Scarry, On Beauty and Being Just; Felski, Uses of Literature
+  + Longinus, On the Sublime (Fyfe/Russell trans.)
+  + ✅ Kant, Critique of Judgment, Analytic of the Sublime
+  + ✅ Nietzsche, The Birth of Tragedy
+  + Bataille, Inner Experience
+  + Gadamer, Truth and Method, Part I
+  + Weiskel, The Romantic Sublime; Hertz, The End of the Line
+  + Scarry, On Beauty and Being Just; Felski, Uses of Literature
 ]
 
 On a prior thesis, and citations to Nguyen, Noë, and others
@@ -220,7 +220,7 @@ On a prior thesis, and citations to Nguyen, Noë, and others
 - The Play of the World -- Hans #cite(<hansPlayWorld1981>)
 - Meta-gaming - Boluck & LeMieux #cite(<bolukMetagamingPlayingCompeting2017>)
 - Strange Tools - Noë #cite(<noeStrangeToolsArt2015>)
-- ✅ The Entanglement - Noë #cite(<noeEntanglementHowArt2023>)
+- ✅ The Entanglement - Noë #cite(<noeEntanglementHowArt2023a>)
 - ✅ What Is Philosophy? - D&G #cite(<deleuzeWhatPhilosophy2014a>)
 - The Score - Nguyen #cite(<nguyenScoreHowStop2026>)
 - ✅ Games: Agency as Art - Nguyen #cite(<nguyenGamesAgencyArt2025>)
@@ -240,7 +240,7 @@ On a prior thesis, and citations to Nguyen, Noë, and others
 - Homo Ludens - Huizinga #cite(<huizingaHomoLudensIls2014>)
 
 
-== TO EXPLORE 
+== TO EXPLORE
 
 === Generalization and stereotypes
 
@@ -249,7 +249,9 @@ while avoiding #emph[overgeneralizing.] They help us #emph[cope] with
 everyday life. They provide us flexibility when our established rules
 are shown to be wrong. Play is at the heart of scientific revolution.
 Play is at the heart of discovery. See here:
-#link("https://aeon.co/essays/when-is-stereotyping-a-handy-tool-and-when-is-it-a-sin")[How we meet the future - Tom Ralston, ed.~Nigel Warburton]
+#link(
+  "https://aeon.co/essays/when-is-stereotyping-a-handy-tool-and-when-is-it-a-sin",
+)[How we meet the future - Tom Ralston, ed.~Nigel Warburton]
 
 
 === Play and trauma
@@ -373,10 +375,10 @@ inability to enter it. Play is a wilful engagement with it.
       entanglement. Not all play has this entangled characteristic. It
       is transformative play in particular which is at the heart of
       entanglement and the aesthetic attitude.#footnote[They cite James
-      S. Hans: "The role of play is not to work comfortably within its
-      own structures but rather constantly to develop its structures
-      through play." This is exactly what I’m trying to articulate!
-      #emph[The Play of the World,] 1981, p.~5]
+        S. Hans: "The role of play is not to work comfortably within its
+        own structures but rather constantly to develop its structures
+        through play." This is exactly what I’m trying to articulate!
+        #emph[The Play of the World,] 1981, p.~5]
   + Metagaming and code-switching: the fluidity of the aesthetic
     attitude. DID as a disordered form of its extremity. Antisocial
     personality disorder and some expressions of autism as playing the
@@ -399,7 +401,7 @@ inability to enter it. Play is a wilful engagement with it.
   + Hans, Nguyen, and Salem and Zimmerman on definitions of play.
     - See ch1 defining play
   + The ontoepistemological significance of play
-    - See "defining play.typ" 
+    - See "defining play.typ"
   + A note on rules and games
 + Thinking like a designer
 

@@ -1,0 +1,58 @@
+{
+  "show_edit_predictions": false,
+  "format_on_save": "on",
+  "disable_ai": false,
+  "lsp": {
+    "tinymist": {
+      "binary": {
+        "path": "/home/ada/repos/ada-x64/typst-play-essay/.zed/tinymist-zed",
+        "arguments": [],
+      },
+      "initialization_options": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/out/$name",
+        "rootPath": "/home/ada/repos/ada-x64/typst-play-essay",
+        "fontPaths": ["fonts"],
+        "typstExtraArgs": ["main.typ"],
+        "preview": {
+          "refresh": "onType",
+          "partialRendering": false,
+          "invertColors": "never",
+          "background": {
+            "enabled": true,
+            "args": [
+              "--data-plane-host=127.0.0.1:23635",
+              "--invert-colors=never",
+              "--open",
+            ],
+          },
+        },
+      },
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/out/$name",
+        "rootPath": "/home/ada/repos/ada-x64/typst-play-essay",
+        "fontPaths": ["fonts"],
+        "typstExtraArgs": ["main.typ"],
+        "preview": {
+          "refresh": "onType",
+          "partialRendering": false,
+          "invertColors": "never",
+          "background": {
+            "enabled": true,
+            "args": [
+              "--data-plane-host=127.0.0.1:23635",
+              "--invert-colors=never",
+              "--open",
+            ],
+          },
+        },
+      },
+    },
+  },
+  "languages": {
+    "Typst": {
+      "language_servers": ["tinymist"],
+    },
+  },
+}
