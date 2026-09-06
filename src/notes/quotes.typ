@@ -1,4 +1,4 @@
-#import "../lib/lib.typ": _cite, cite, conf, hr
+#import "../lib.typ": _cite, cite, conf, hr
 
 = Quotes
 

@@ -1,4 +1,4 @@
-#import("../lib/lib.typ"): cite, _cite, 
+#import "../lib.typ": _cite, cite
 
 = Defining play
 
@@ -7,7 +7,7 @@
 Hans defines play as follows:
 
 1. "The essence of play is its capacity to saturate virtually every aspect of our lives, though not continuously." #cite(<hansPlayWorld1981>, 2)
-2. "The willingness to forego one's own territory, to be willing to pass beyond what one knows one is capable of, is the fundamental feature of play." #cite(<hansPlayWorld1981>, 13) 
+2. "The willingness to forego one's own territory, to be willing to pass beyond what one knows one is capable of, is the fundamental feature of play." #cite(<hansPlayWorld1981>, 13)
 3. "Still, whereas play is free in the sense that there is no Being in which to ground it, it is also bound in two crucial senses: first the beginning of play is always necessarily connected to a foreproject, to a series of prejudgments that are at issue in the activity of play itself, that give an orientation for the play; and second, the result of play is a structure, a framework or order that has been confirmed by the play itself." #cite(<hansPlayWorld1981>, 10)
 
 He is quite clearly talking about _transformative play_ as defined by
@@ -33,7 +33,7 @@ he describes play as "limited and not clearly definable -- some of our 'laws' of
 physics, for example, point to the present limits of natural play -- but within
 those limits natural play is capable of an infinite number of new grafts and
 connections." #cite(<hansPlayWorld1981>, "16-17") #footnote[This sense of
-natural play is somewhat reminiscent of Huizinga's comsology of play.]
+  natural play is somewhat reminiscent of Huizinga's comsology of play.]
 
 I read Hans as having several admixed conceptions of play. The first is
 agential, having to do with action, the second is onto-epistemological, having
@@ -57,8 +57,7 @@ structuring aspects of the universe, but rather statistical propositions which
 require certain magnitudes of scale. Certain macro-level laws do not apply
 at the micro scale. For example the laws of thermodynamics are, in Deleuze and
 Guattari's
-phrasing#footnote[#_cite(<deleuzeAntiOedipusCapitalismSchizophrenia2009>,
-supplement: [_passim_])], _molar_ having to do with emergent properties of large
+phrasing#footnote[#_cite(<deleuzeAntiOedipusCapitalismSchizophrenia2009>, supplement: [_passim_])], _molar_ having to do with emergent properties of large
 masses of objects, while particle laws are _molecular,_ having to do with much
 smaller collections, down to the individual. In this sense then the rules of
 physics are "loose," although mathematically concrete. Put another way, physical
@@ -76,7 +75,7 @@ remains within the container, constrained by its own particular medium and the
 resistance of the glass. It is in fact the container which gives it shape. And
 no amount of wiggling will change the properties of the liquid. This is why I
 consider this sort of play _mechanical._ We will later consider transformative
-play, which, extending our physical metaphor, could be considered chemical. 
+play, which, extending our physical metaphor, could be considered chemical.
 
 Hans, however, takes this notion of mechanical play and forms it as the basis of
 his argument. Throughout the book, this single notion of play is at play. It is
@@ -112,14 +111,14 @@ role of play, so, for our purposes, that is enough.
 
 Hans' understanding of theoretic play is based on the Husserlian notion of
 horizon. He refutes Derrida's collapse of the ontological into the
-epistemological, offering instead a nuanced, layered approach. #quote(block:true, attribution:cite(<hansPlayWorld1981>, 21), [\[T\]he
-epistemological is always that which we understand of the ontological, so at any
-given moment it may appear as though the ontological and the epistemological are
-the same. But in fact their horizons are never quite the same, for the
-epistemological is also always structured, at least implicitly, in terms of that
-which it does not encompass, in terms of that which does not make 'sense'
-according to its own understanding. And that which does not make sense or has
-not yet been understood points to the larger horizon of the ontological.])
+epistemological, offering instead a nuanced, layered approach. #quote(block: true, attribution: cite(<hansPlayWorld1981>, 21), [\[T\]he
+  epistemological is always that which we understand of the ontological, so at any
+  given moment it may appear as though the ontological and the epistemological are
+  the same. But in fact their horizons are never quite the same, for the
+  epistemological is also always structured, at least implicitly, in terms of that
+  which it does not encompass, in terms of that which does not make 'sense'
+  according to its own understanding. And that which does not make sense or has
+  not yet been understood points to the larger horizon of the ontological.])
 
 So, our epistemological understandings are
 limited at their horizon by the ontological. By way of example, consider a
@@ -137,15 +136,15 @@ There is no single ontology, no single epistemology. How to choose to orient
 ourselves, that is, which epistemology we take up, in part determines the objects of our world.
 
 #quote(attribution: cite(<hansPlayWorld1981>, "21-22"), block: true, [To begin to think of man as a purely physical,
-psycho-chemical creature provides new possibilities for ontological grafts, just
-as thinking of man as a purely linguistic creature would. And any basic change
-in our conception of social structure could easily enough lead to
-redistributions of populations, resources, and systems in ways which could
-profoundly affect the ontological system.]) 
+  psycho-chemical creature provides new possibilities for ontological grafts, just
+  as thinking of man as a purely linguistic creature would. And any basic change
+  in our conception of social structure could easily enough lead to
+  redistributions of populations, resources, and systems in ways which could
+  profoundly affect the ontological system.])
 
 The objects of our ontology vary based on the epistemology we presuppose. How we
 choose to frame our view of the world -- the rules of the game, the hues of our attitudes --
-effects what objects we can discern. 
+effects what objects we can discern.
 
 But the objects within our world themselves circle down to affect our
 epistemology. "Play itself is the field within which the ontological framework
@@ -201,5 +200,4 @@ relaxation, education, exercise, or an attempt at experiencing beauty. It is
 this last form of striving play that Nguyen focuses on and terms _aesthetic
 striving play._
 
-While I appreciate Nguyen's tight focus on game play, in this essay I want to broaden the horizons of what play can do. 
-
+While I appreciate Nguyen's tight focus on game play, in this essay I want to broaden the horizons of what play can do.

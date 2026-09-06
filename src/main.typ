@@ -1,4 +1,4 @@
-#import "lib/lib.typ": conf, hr
+#import "lib.typ": conf, hr
 #show: conf
 
 #set document(

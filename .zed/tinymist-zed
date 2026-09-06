@@ -6,6 +6,8 @@ Tinymist when a location in the web preview is clicked. This proxy consumes
 that request, opens the requested source position through the Zed CLI, and
 returns a successful response to Tinymist. All other LSP traffic is forwarded
 unchanged.
+
+NOTE: This shim is temporary. Once zed ships #61572 we can delete this.
 """
 
 from __future__ import annotations
@@ -186,7 +188,9 @@ def main() -> int:
     child_args = args or ["lsp"]
     log(f"\n===== Zed Tinymist proxy start; args={child_args!r} =====")
     env = os.environ.copy()
-    env.setdefault("RUST_LOG", "tinymist=info,tinymist_preview=info,tinymist_project=info")
+    env.setdefault(
+        "RUST_LOG", "tinymist=info,tinymist_preview=info,tinymist_project=info"
+    )
 
     child = subprocess.Popen(
         [TINYMIST, *child_args],
