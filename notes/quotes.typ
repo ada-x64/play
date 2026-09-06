@@ -1,23 +1,28 @@
-#import("../lib/lib.typ"): hr, cite, _cite, conf
+#import "../lib/lib.typ": _cite, cite, conf, hr
 
 = Quotes
 
-== _The Entanglement_ 
+== _The Entanglement_
 === The aesthetic
-#quote([
- The aesthetic names the ever-ongoing process of bringing what there is into an
- always fragile focus; it is the movement, always subject to second-guessing,
- from not seeing to seeing, or from seeing to seeing differently. The aesthetic
- is the  fragile, productive (but also entangled) enacting of our consciousness
- itself. [...] We organize ourselves [...] by representing ourselves by
- ourselves. This representing is fragile: it never evades the rivalry, the
- availability of the aspect shift, or the second guess. It is productive: it isn't
- the work of self-making and also world-making, for we change ourselves and change
- what is there for us in the very act. And it is entangled, for we do all this
- always against the background of the situations in which we find ourselves
- including, as it does, everything that has come before, including all our past
- self-representations.
-], block:true, attribution: [#cite(<noeEntanglementHowArt2023a>, "222-223")])
+#quote(
+  [
+    The aesthetic names the ever-ongoing process of bringing what there is into an
+    always fragile focus; it is the movement, always subject to second-guessing,
+    from not seeing to seeing, or from seeing to seeing differently. The aesthetic
+    is the  fragile, productive (but also entangled) enacting of our consciousness
+    itself. [...] We organize ourselves [...] by representing ourselves by
+    ourselves. This representing is fragile: it never evades the rivalry, the
+    availability of the aspect shift, or the second guess. It is productive: it isn't
+    the work of self-making and also world-making, for we change ourselves and change
+    what is there for us in the very act. And it is entangled, for we do all this
+    always against the background of the situations in which we find ourselves
+    including, as it does, everything that has come before, including all our past
+    self-representations.
+  ],
+  block: true,
+  attribution: [#cite(<noeEntanglementHowArt2023a>, "222-223")],
+)
+
 
 == _The Play of the World_
 
@@ -25,18 +30,18 @@
 Hans defines play as follows:
 
 1. "The essence of play is its capacity to saturate virtually every aspect of our lives, though not continuously." #cite(<hansPlayWorld1981>, 2)
-2. "The willingness to forego one's own territory, to be willing to pass beyond what one knows one is capable of, is the fundamental feature of play." #cite(<hansPlayWorld1981>, 13) 
+2. "The willingness to forego one's own territory, to be willing to pass beyond what one knows one is capable of, is the fundamental feature of play." #cite(<hansPlayWorld1981>, 13)
 3. "Still, whereas play is free in the sense that there is no Being in which to ground it, it is also bound in two crucial senses: first the beginning of play is always necessarily connected to a foreproject, to a series of prejudgments that are at issue in the activity of play itself, that give an orientation for the play; and second, the result of play is a structure, a framework or order that has been confirmed by the play itself." #cite(<hansPlayWorld1981>, 10)
 
 === Hans on desire (ch3)
 
-#quote(block:true, attribution: cite(<hansPlayWorld1981>, 81), [
+#quote(block: true, attribution: cite(<hansPlayWorld1981>, 81), [
   The problem is how to reconcile production of desire -- or ecstatic desire -- and consumption of desire -- or violent desire. Structurally, they are reconciled by the fact that both lead to undifferentiation, to the loss of difference which in turn generates a new series of differences, and by the fact that both are also imitative processes. In the play of production, imitation is central, but it is the imitation of play itself that is the goal, and implicit in that desire to imitate play is also a willing suspension of difference. [...] One need not worry about imitation leading to identity, for identity itself is not possible. One's imitation is always a graft, so it is always an imitation with a difference[. ...] It is the connection of difference that provides the play, the production, and the graft, and it is this connection, openly conceded, that provides the difference between the two models we have been looking at.
 ])
 
 Very much in the realm of Deleuze and Guattari, Derrida, Gadamer, Nietzsche, Lacan (via D&G). This is chapter 3 of Hans. Key ideas: play as the production of the Real (cf ch2) non-self, desiring-production, mimesis, unification of ecstasy and violence, critique of D&G, critical-theoretical applications
 
-- Passive vs active syntheses (p54, p56), play and the production of the Real (p54ff) 
+- Passive vs active syntheses (p54, p56), play and the production of the Real (p54ff)
 - The copper fitting metaphor (p58)  -- pragmatism
 - Entanglement and fields of play (p59-60)
 - Girard and the violence of mimesis; underscores violent desire (p64ff)
@@ -47,29 +52,29 @@ Very much in the realm of Deleuze and Guattari, Derrida, Gadamer, Nietzsche, Lac
 - Conclusion and summary (p81-84)
 
 
-== Peter Cole - On Givenness 
+== Peter Cole - On Givenness
 #linebreak()
 #set align(center)
 #block[
   #set align(left)
   #quote(block: true, attribution: _cite(<coleGivenness2017>), [
-  What if givenness _isn't_ enough —\
-  and the wind's slithering along my arm\
-  is really a subtle summery alarm\
-  trying to tell me something else,\
-  and much rougher?\
-                                That worth, for instance,\
-  depends on a violence of difference\
-                                              and therefore\
-  inevitably lies at a certain distance\
-  from the stuff of life and us?\
-  That even givenness has to be taken\
-  hold of,\
-                at least by a kind of frame—\
-  if not a reaching for steeper comparison?\
-  And here it is,\
-                          as though it were kissing\
-  the thinnest of skins on my arm, or name.
+    What if givenness _isn't_ enough —\
+    and the wind's slithering along my arm\
+    is really a subtle summery alarm\
+    trying to tell me something else,\
+    and much rougher?\
+                                  That worth, for instance,\
+    depends on a violence of difference\
+                                                and therefore\
+    inevitably lies at a certain distance\
+    from the stuff of life and us?\
+    That even givenness has to be taken\
+    hold of,\
+                  at least by a kind of frame—\
+    if not a reaching for steeper comparison?\
+    And here it is,\
+                            as though it were kissing\
+    the thinnest of skins on my arm, or name.
   ])
 ]
 #set align(left)
@@ -102,9 +107,9 @@ physical phenomena, so I also dub it 'physical play.'
 "Transformative play is a special case of play that occurs when the free
 movement of play alters the more rigid structure in which it takes shape. The
 play doesn't just occupy and oppose the interstices of the system, but actually
-transforms the space as a whole." #cite(<salentekinbasRulesPlayGame2004>,
-"305") Play as mimesis-with-difference. I call this 'biological play' because it
-is reminiscent of the process of evolution. Supervenes on mechanical play, but
+transforms the space as a whole." #cite(<salentekinbasRulesPlayGame2004>, "305")
+Play as mimesis-with-difference. I call this 'biological play' because it is
+reminiscent of the process of evolution. Supervenes on mechanical play, but
 is not the same thing. Requires a prerequisite structure and ability to copy.
 These can be explained e.g. in the origins of life as chemical processes; the
 copying and mutation of genes. (Interesting recent studies show that life had to

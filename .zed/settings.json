@@ -4,10 +4,6 @@
   "disable_ai": false,
   "lsp": {
     "tinymist": {
-      "binary": {
-        "path": "/home/ada/repos/ada-x64/typst-play-essay/.zed/tinymist-zed",
-        "arguments": [],
-      },
       "initialization_options": {
         "exportPdf": "onSave",
         "outputPath": "$root/out/$name",

@@ -126,7 +126,6 @@ Each of these accounts point toward a meta-level consciousness, something that i
   - design
 
 
-
 === Trauma
 
 As the unwilling counter to play. As the rigid structure which _prevents_ the
