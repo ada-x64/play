@@ -12,8 +12,8 @@
         "exportPdf": "onSave",
         "outputPath": "$root/out/$name",
         "rootPath": "/home/ada/repos/ada-x64/typst-play-essay",
-        "fontPaths": ["fonts"],
-        "typstExtraArgs": ["main.typ"],
+        "fontPaths": ["src/fonts"],
+        "typstExtraArgs": ["src/main.typ"],
         "preview": {
           "refresh": "onType",
           "partialRendering": false,
@@ -32,8 +32,8 @@
         "exportPdf": "onSave",
         "outputPath": "$root/out/$name",
         "rootPath": "/home/ada/repos/ada-x64/typst-play-essay",
-        "fontPaths": ["fonts"],
-        "typstExtraArgs": ["main.typ"],
+        "fontPaths": ["src/fonts"],
+        "typstExtraArgs": ["src/main.typ"],
         "preview": {
           "refresh": "onType",
           "partialRendering": false,

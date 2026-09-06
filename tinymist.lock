@@ -3,14 +3,6 @@
 version = "0.1.0-beta0"
 
 [[document]]
-font-paths = ["file:fonts"]
-id = "file:main.typ"
-inputs = []
-main = "file:./src/main.typ"
-root = "file:./src"
-system-fonts = true
-
-[[document]]
 font-paths = ["file:src/fonts"]
 id = "file:src/main.typ"
 inputs = []
@@ -19,19 +11,8 @@ root = "file:."
 system-fonts = true
 
 [[route]]
-id = "file:main.typ"
-priority = 256
-
-[[route]]
 id = "file:src/main.typ"
 priority = 256
-
-[[task]]
-document = "file:main.typ"
-id = "file:main.typ"
-output = "out/main"
-type = "export-pdf"
-when = "never"
 
 [[task]]
 document = "file:src/main.typ"
