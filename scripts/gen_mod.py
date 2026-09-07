@@ -26,7 +26,7 @@ def populate(path: Path) -> bool:
     if write:
         with open(modfile, "w") as f:
             # print(f"Wrote {modfile}")
-            f.write(content)
+            _ = f.write(content)
     return write
 
 
@@ -38,4 +38,4 @@ if __name__ == "__main__":
     if not path.exists():
         print("No such path")
         sys.exit(1)
-    populate(path)
+    _ = populate(path)

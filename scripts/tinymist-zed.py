@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 """Tinymist LSP proxy adding preview-click navigation for Zed.
 
 Zed currently rejects the standard LSP window/showDocument request emitted by
@@ -19,7 +19,7 @@ import subprocess
 import sys
 import threading
 from pathlib import Path
-from typing import BinaryIO
+from typing import BinaryIO, cast
 from urllib.parse import unquote, urlparse
 
 WORKSPACE = Path(__file__).resolve().parent.parent
@@ -34,7 +34,7 @@ log_lock = threading.Lock()
 def log(message: str) -> None:
     LOG.parent.mkdir(parents=True, exist_ok=True)
     with log_lock, LOG.open("a", encoding="utf-8") as stream:
-        stream.write(message.rstrip() + "\n")
+        _ = stream.write(message.rstrip() + "\n")
 
 
 def read_exact(stream: BinaryIO, length: int) -> bytes:
@@ -72,12 +72,12 @@ def read_lsp_message(stream: BinaryIO) -> tuple[bytes, bytes] | None:
     return b"".join(headers), body
 
 
-def write_lsp_message(stream: BinaryIO, payload: dict) -> None:
+def write_lsp_message(stream: BinaryIO, payload: dict[str, object]) -> None:
     body = json.dumps(payload, separators=(",", ":")).encode("utf-8")
     frame = f"Content-Length: {len(body)}\r\n\r\n".encode("ascii") + body
     with write_lock:
-        stream.write(frame)
-        stream.flush()
+        _ = stream.write(frame)
+        _ = stream.flush()
 
 
 def forward_client_messages(child_stdin: BinaryIO) -> None:
@@ -85,12 +85,12 @@ def forward_client_messages(child_stdin: BinaryIO) -> None:
         while message := read_lsp_message(sys.stdin.buffer):
             headers, body = message
             with write_lock:
-                child_stdin.write(headers)
-                child_stdin.write(body)
-                child_stdin.flush()
+                _ = child_stdin.write(headers)
+                _ = child_stdin.write(body)
+                _ = child_stdin.flush()
     except (BrokenPipeError, EOFError):
         pass
-    except Exception as error:
+    except Exception as error:  # noqa: BLE001
         log(f"client forwarding error: {error!r}")
     finally:
         try:
@@ -109,23 +109,36 @@ def file_path_from_uri(uri: str) -> str | None:
     return path
 
 
-def handle_show_document(message: dict, child_stdin: BinaryIO) -> bool:
+def as_object_dict(value: object) -> dict[str, object]:
+    """Return a string-keyed dictionary for a decoded JSON object."""
+    if isinstance(value, dict):
+        return cast(dict[str, object], value)
+    return {}
+
+
+def as_int(value: object, default: int = 0) -> int:
+    """Return an integer JSON value, excluding booleans."""
+    return value if isinstance(value, int) and not isinstance(value, bool) else default
+
+
+def handle_show_document(message: dict[str, object], child_stdin: BinaryIO) -> bool:
     if message.get("method") != "window/showDocument":
         return False
 
-    params = message.get("params") or {}
-    path = file_path_from_uri(params.get("uri", ""))
-    selection = params.get("selection") or {}
-    start = selection.get("start") or {}
+    params = as_object_dict(message.get("params"))
+    uri = params.get("uri")
+    path = file_path_from_uri(uri) if isinstance(uri, str) else None
+    selection = as_object_dict(params.get("selection"))
+    start = as_object_dict(selection.get("start"))
     # LSP positions are zero-based; the Zed CLI uses one-based positions.
-    line = int(start.get("line", 0)) + 1
-    column = int(start.get("character", 0)) + 1
+    line = as_int(start.get("line")) + 1
+    column = as_int(start.get("character")) + 1
     success = False
 
     if path:
         target = f"{path}:{line}:{column}"
         try:
-            subprocess.Popen(
+            _ = subprocess.Popen(
                 [ZED, "--existing", target],
                 stdin=subprocess.DEVNULL,
                 stdout=subprocess.DEVNULL,
@@ -156,19 +169,19 @@ def forward_server_messages(child_stdout: BinaryIO, child_stdin: BinaryIO) -> No
         while message := read_lsp_message(child_stdout):
             headers, body = message
             try:
-                payload = json.loads(body)
+                payload = cast(object, json.loads(body))
             except (UnicodeDecodeError, json.JSONDecodeError):
                 payload = None
 
-            if isinstance(payload, dict) and handle_show_document(payload, child_stdin):
+            if handle_show_document(as_object_dict(payload), child_stdin):
                 continue
 
-            sys.stdout.buffer.write(headers)
-            sys.stdout.buffer.write(body)
-            sys.stdout.buffer.flush()
+            _ = sys.stdout.buffer.write(headers)
+            _ = sys.stdout.buffer.write(body)
+            _ = sys.stdout.buffer.flush()
     except (BrokenPipeError, EOFError):
         pass
-    except Exception as error:
+    except Exception as error:  # noqa: BLE001
         log(f"server forwarding error: {error!r}")
 
 
@@ -176,8 +189,8 @@ def capture_stderr(child_stderr: BinaryIO) -> None:
     LOG.parent.mkdir(parents=True, exist_ok=True)
     with LOG.open("ab") as stream:
         while chunk := child_stderr.read(8192):
-            stream.write(chunk)
-            stream.flush()
+            _ = stream.write(chunk)
+            _ = stream.flush()
 
 
 def main() -> int:
@@ -188,7 +201,7 @@ def main() -> int:
     child_args = args or ["lsp"]
     log(f"\n===== Zed Tinymist proxy start; args={child_args!r} =====")
     env = os.environ.copy()
-    env.setdefault(
+    _ = env.setdefault(
         "RUST_LOG", "tinymist=info,tinymist_preview=info,tinymist_project=info"
     )
 
@@ -201,25 +214,28 @@ def main() -> int:
         bufsize=0,
     )
     assert child.stdin and child.stdout and child.stderr
+    child_stdin = cast(BinaryIO, child.stdin)
+    child_stdout = cast(BinaryIO, child.stdout)
+    child_stderr = cast(BinaryIO, child.stderr)
 
     def terminate_child(_signum: int, _frame: object) -> None:
-        child.terminate()
+        _ = child.terminate()
 
-    signal.signal(signal.SIGTERM, terminate_child)
-    signal.signal(signal.SIGINT, terminate_child)
+    _ = signal.signal(signal.SIGTERM, terminate_child)
+    _ = signal.signal(signal.SIGINT, terminate_child)
 
     client_thread = threading.Thread(
-        target=forward_client_messages, args=(child.stdin,), daemon=True
+        target=forward_client_messages, args=(child_stdin,), daemon=True
     )
     stderr_thread = threading.Thread(
-        target=capture_stderr, args=(child.stderr,), daemon=True
+        target=capture_stderr, args=(child_stderr,), daemon=True
     )
     client_thread.start()
     stderr_thread.start()
-    forward_server_messages(child.stdout, child.stdin)
+    forward_server_messages(child_stdout, child_stdin)
 
     if child.poll() is None:
-        child.terminate()
+        _ = child.terminate()
     return child.wait()
 
 
