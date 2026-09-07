@@ -19,13 +19,13 @@ def populate(path: Path) -> bool:
                 write = True
         elif file.suffix == ".typ":
             if re.search(r"//\s*mod-ignore", file.read_text()):
-                print(f"Ignored {file}")
+                # print(f"Ignored {file}")
                 continue
             content += f'#include "{name}"\n'
             write = True
     if write:
         with open(modfile, "w") as f:
-            print(f"Wrote {modfile}")
+            # print(f"Wrote {modfile}")
             f.write(content)
     return write
 

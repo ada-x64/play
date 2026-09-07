@@ -4,14 +4,14 @@
 
 ==== Disambiguation
 
-Play has several meanings. The one we focus on is transformative play, the play
-of the metagame -- play which modifies the very rules of play. This sort of play
-is entangled, in Noë's sense of the term. In addition to transformative play,
-there is mechanical play (play broadly construed to include e.g. physical
-notions of play), being-playful (play construed as a willingness to mold or
-shift one's perspective, to _break_ the rules or to bend them), play as
-rule-following (e.g. striving play, wherein one takes on the temporary goals of
-a game so as to accomplish some meta-level goal).
+Play has several meanings. The one I want to focus on is transformative play,
+the play of the metagame -- play which modifies the very rules of play. This
+sort of play is entangled, in Noë's sense of the term. In addition to
+transformative play, there is mechanical play (play broadly construed to include
+e.g. physical notions of play), being-playful (play construed as a willingness
+to mold or shift one's perspective, to _break_ the rules or to bend them), play
+as rule-following (e.g. striving play, wherein one takes on the temporary goals
+of a game so as to accomplish some meta-level goal).
 
 Play as rule-following, our typical playful activity, is an interesting case
 because it is simultaneously mechanical and meta-level. Our concerns are only
@@ -88,12 +88,14 @@ consciousness_ to describe this higher-level perception.
     occurs at a meta level
 + Domain
   - physical, mechanical, rule-bound
-    - physical laws, rule-bound play, _deterministically automatable,_ "games" in the "game theory" sense.
-    - This sense of play is not necessarily agentic. Agents definitely play like this, but not _only_ agents exhibit this sort of behavior.
+    - physical laws, rule-bound play, _deterministically automatable,_ "games"
+      in the "game theory" sense.
+    - This sense of play is not necessarily agentic. Agents definitely play like
+      this, but not _only_ agents exhibit this sort of behavior.
       - Is this a credible notion of "play?" Is this not just 'stochastic
-        behavior?' -- There seems to be a sort of _stategic incentive_ to reach an
-        optimistic state. Physical phenomena certainly achieve this. Though it
-        stretches the notion of play far beyond traditional credibility.
+        behavior?' -- There seems to be a sort of _stategic incentive_ to reach
+        an optimistic state. Physical phenomena certainly achieve this. Though
+        it stretches the notion of play far beyond traditional credibility.
   - biological, chemical, transformative
     - agentic, theoretic, onto-epistemological -> a kind of transformative play
 + Levels

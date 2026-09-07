@@ -1,0 +1,15 @@
+[
+  {
+    "label": "Format",
+    "command": "just format",
+  },
+  {
+    "label": "Lint",
+    "command": "just lint",
+  },
+  {
+    "label": "Generate mod.typ files",
+    "command": "just gen_mods",
+    "reveal": "no_focus",
+  },
+]

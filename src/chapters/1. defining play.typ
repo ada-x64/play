@@ -135,12 +135,16 @@ formal system (epistemology) can broach.
 There is no single ontology, no single epistemology. How to choose to orient
 ourselves, that is, which epistemology we take up, in part determines the objects of our world.
 
-#quote(attribution: cite(<hansPlayWorld1981>, "21-22"), block: true, [To begin to think of man as a purely physical,
-  psycho-chemical creature provides new possibilities for ontological grafts, just
-  as thinking of man as a purely linguistic creature would. And any basic change
-  in our conception of social structure could easily enough lead to
-  redistributions of populations, resources, and systems in ways which could
-  profoundly affect the ontological system.])
+#quote(
+  attribution: cite(<hansPlayWorld1981>, "21-22"),
+  block: true,
+  [To begin to think of man as a purely physical,
+    psycho-chemical creature provides new possibilities for ontological grafts, just
+    as thinking of man as a purely linguistic creature would. And any basic change
+    in our conception of social structure could easily enough lead to
+    redistributions of populations, resources, and systems in ways which could
+    profoundly affect the ontological system.],
+)
 
 The objects of our ontology vary based on the epistemology we presuppose. How we
 choose to frame our view of the world -- the rules of the game, the hues of our attitudes --

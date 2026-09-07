@@ -47,21 +47,25 @@
 /// Lacan (via D&G). This is chapter 3 of Hans. Key ideas: play as the production of
 /// the Real (cf ch2) non-self, desiring-production, mimesis, unification of ecstasy
 /// and violence, critique of D&G, critical-theoretical applications
-#let hans_desire = quote(block: true, attribution: cite(<hansPlayWorld1981>, 81), [
-  The problem is how to reconcile production of desire -- or ecstatic desire --
-  and consumption of desire -- or violent desire. Structurally, they are
-  reconciled by the fact that both lead to undifferentiation, to the loss of
-  difference which in turn generates a new series of differences, and by the
-  fact that both are also imitative processes. In the play of production,
-  imitation is central, but it is the imitation of play itself that is the goal,
-  and implicit in that desire to imitate play is also a willing suspension of
-  difference. [...] One need not worry about imitation leading to identity, for
-  identity itself is not possible. One's imitation is always a graft, so it is
-  always an imitation with a difference[. ...] It is the connection of
-  difference that provides the play, the production, and the graft, and it is
-  this connection, openly conceded, that provides the difference between the two
-  models we have been looking at.
-])
+#let hans_desire = quote(
+  block: true,
+  attribution: cite(<hansPlayWorld1981>, 81),
+  [
+    The problem is how to reconcile production of desire -- or ecstatic desire --
+    and consumption of desire -- or violent desire. Structurally, they are
+    reconciled by the fact that both lead to undifferentiation, to the loss of
+    difference which in turn generates a new series of differences, and by the
+    fact that both are also imitative processes. In the play of production,
+    imitation is central, but it is the imitation of play itself that is the goal,
+    and implicit in that desire to imitate play is also a willing suspension of
+    difference. [...] One need not worry about imitation leading to identity, for
+    identity itself is not possible. One's imitation is always a graft, so it is
+    always an imitation with a difference[. ...] It is the connection of
+    difference that provides the play, the production, and the graft, and it is
+    this connection, openly conceded, that provides the difference between the two
+    models we have been looking at.
+  ],
+)
 
 
 - Passive vs active syntheses (p54, p56), play and the production of the Real (p54ff)
@@ -106,7 +110,10 @@
 ]
 
 /// Game play vs ludic activities vs being playful
-#let rules_of_play_def_play = quote(block: true, attribution: [#cite(<salentekinbasRulesPlayGame2004>, "?")])[
+#let rules_of_play_def_play = quote(block: true, attribution: [#cite(
+  <salentekinbasRulesPlayGame2004>,
+  "?",
+)])[
   + *Game Play:* the formalized, focused interaction that
     occurs when players follow the rules of a game in order to play
     it.

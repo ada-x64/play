@@ -24,6 +24,11 @@
       "settings": {
         "fontPaths": ["src/fonts"],
         "typstExtraArgs": ["src/main.typ"],
+        "formatterPrintWidth": 80,
+        "formatterProseWrap": true,
+        "lint": {
+          "enabled": true,
+        },
       },
     },
   },
