@@ -10,10 +10,7 @@
 
 #outline() #hr
 
-#include "notes/notes.typ"
-#hr
-
-#include "notes/quotes.typ"
+#include "notes/main.typ"
 #hr
 
 #include "chapters/1. defining play.typ"
