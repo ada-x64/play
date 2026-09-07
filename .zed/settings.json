@@ -4,7 +4,7 @@
   "lsp": {
     "tinymist": {
       "binary": {
-        "path": "/home/ada/repos/ada-x64/typst-play-essay/.zed/tinymist-zed",
+        "path": "/home/ada/repos/ada-x64/play/.zed/tinymist-zed",
         "arguments": [],
       },
       "initialization_options": {

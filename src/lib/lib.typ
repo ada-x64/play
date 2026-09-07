@@ -1,34 +1,36 @@
 // Document setup
+// mod-ignore
 
 #let hr = [
   #linebreak()
   #set align(center)
-  ⁂ 
+  ⁂
 ]
 
 #let endnote(num, contents) = [
   #stack(dir: ltr, spacing: 3pt, super[#num], contents)
 ]
 #show terms: it => {
-  it.children
+  it
+    .children
     .map(child => [
       #strong[#child.term]
       #block(inset: (left: 1.5em, top: -0.4em))[#child.description]
-      ])
+    ])
     .join()
 }
 
 #set table(
   inset: 6pt,
-  stroke: none
+  stroke: none,
 )
 
 #show figure.where(
-  kind: table
+  kind: table,
 ): set figure.caption(position: top)
 
 #show figure.where(
-  kind: image
+  kind: image,
 ): set figure.caption(position: bottom)
 
 #let content-to-string(content) = {
@@ -59,7 +61,7 @@
   sectionnumbering: "1.",
   doc,
 ) = {
-  show raw: set text(font: font, size: fontsize) 
+  show raw: set text(font: font, size: fontsize)
   set document(
     title: title,
     author: authors.map(author => content-to-string(author.name)),
@@ -71,18 +73,18 @@
     numbering: "1",
   )
   set par(justify: true)
-  set text(lang: lang,
-           region: region,
-           size: fontsize)
+  set text(lang: lang, region: region, size: fontsize)
   set heading(numbering: sectionnumbering)
 
   if title != none {
     align(center)[#block(inset: 2em)[
       #text(weight: "bold", size: 1.5em)[#title]
-      #(if subtitle != none {
-        parbreak()
-        text(weight: "bold", size: 1.25em)[#subtitle]
-      })
+      #(
+        if subtitle != none {
+          parbreak()
+          text(weight: "bold", size: 1.25em)[#subtitle]
+        }
+      )
     ]]
   }
 
@@ -92,13 +94,11 @@
     grid(
       columns: (1fr,) * ncols,
       row-gutter: 1.5em,
-      ..authors.map(author =>
-          align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
-          ]
-      )
+      ..authors.map(author => align(center)[
+        #author.name \
+        #author.affiliation \
+        #author.email
+      ])
     )
   }
 
@@ -110,7 +110,7 @@
 
   if abstract != none {
     block(inset: 2em)[
-    #text(weight: "semibold")[Abstract] #h(1em) #abstract
+      #text(weight: "semibold")[Abstract] #h(1em) #abstract
     ]
   }
 
@@ -122,5 +122,5 @@
 }
 
 
-#let _cite = {cite}
-#let cite(term,page)={_cite(term, supplement:"p" + str(page))}
+#let _cite = { cite }
+#let cite(term, page) = { _cite(term, supplement: "p" + str(page)) }

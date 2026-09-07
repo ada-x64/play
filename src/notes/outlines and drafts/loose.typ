@@ -1,11 +1,7 @@
-= Theses
-<key-thoughts>
-
-#include "./inquiry.typ"
-#include "./designer.typ"
-#include "./space-between.typ"
+// mod-ignore
 
 = Outlines
+
 == Initial
 + Two takes on the aesthetic attitude - Nguyen and Noë.
   + How do each of our philosophers spell out their attitudes?
@@ -134,6 +130,3 @@
     anything. (Perhaps Nguyen has something to say here in The Score)
   + TO EXPLORE: *The hermeneutic circle and the magic circle - what's the difference?*
     - Okay clearly the magic circle more closely relates to Hans' 'fields of play' than the hermeneutic circle, but both are significant. The hermeneutic circle is closer to the entanglement but specifically for language. cf Hans p105
-
-
-== Outline take 2

@@ -1,4 +1,4 @@
-#import "../lib.typ": _cite, cite
+#import "../lib/lib.typ": _cite, cite
 
 = Defining play
 

@@ -1,4 +1,4 @@
-#import "lib.typ": conf, hr
+#import "lib/lib.typ": conf, hr
 #show: conf
 
 #set document(
@@ -10,10 +10,10 @@
 
 #outline() #hr
 
-#include "notes/main.typ"
-#hr
+#title("Notes")
+#include "notes/mod.typ"
 
-#include "chapters/1. defining play.typ"
-#hr
+#title("Essays")
+#include "chapters/mod.typ"
 
 #bibliography("bib.yaml", style: "chicago-author-date")
