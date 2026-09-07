@@ -1,6 +1,0 @@
-{
-  "tinymist.rootPath": "${workspaceFolder}",
-  "tinymist.fontPaths": ["${workspaceFolder}/src/fonts"],
-  "tinymist.typstExtraArgs": ["src/main.typ"],
-  "tinymist.projectResolution": "lockDatabase"
-}

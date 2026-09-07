@@ -16,3 +16,7 @@ format:
 
 lint:
     tinymist lint ./src/main.typ --root . --font-path="./src/fonts"
+
+check:
+    find ./src/ -type f -name '*.typ' -print0 | xargs -0 -r typstyle --check -l 80
+    just lint
