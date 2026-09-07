@@ -1,4 +1,3 @@
-
 == Thinking like a designer: Creating the aesthetic artifact
 
 The goal when creating philosophy and art is not to think like a player, but to

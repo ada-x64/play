@@ -6,25 +6,26 @@
 See #link(<disambiguation>)[disambiguation]
 
 === Mechanical play <concept-mechanical-play>
-Play, in general, is "Free movement within a more rigid structure"
-#cite(<salentekinbasRulesPlayGame2004>, supplement: "p304"). I consider this
-'mechanical play.' Broad definition applicable to all kinds of play.
-"Mechanical" in that it invokes the sense of e.g. the play of gears in a
-machine. I conceive this as the consequence of randomness of chaotic behavior in
-physical phenomena, so I also dub it 'physical play.'
+Play, in general, is "Free movement within a more rigid structure" #cite(
+  <salentekinbasRulesPlayGame2004>,
+  supplement: "p304",
+). I consider this 'mechanical play.' Broad definition applicable to all kinds
+of play. "Mechanical" in that it invokes the sense of e.g. the play of gears in
+a machine. I conceive this as the consequence of randomness of chaotic behavior
+in physical phenomena, so I also dub it 'physical play.'
 
 === Transformative play <concept-transformative-play>
 
 #quotes.transformative_play
 
 Play as mimesis-with-difference. I call this 'biological play' because it is
-reminiscent of the process of evolution. Supervenes on mechanical play, but
-is not the same thing. Requires a prerequisite structure and ability to copy.
-These can be explained e.g. in the origins of life as chemical processes; the
-copying and mutation of genes. (Interesting recent studies show that life had to
-evolve at least twice -- two pairs of genomes had to come together to form
-proteins, chaotically tangled entities, which are the gears of life, providing
-it its play.)
+reminiscent of the process of evolution. Supervenes on mechanical play, but is
+not the same thing. Requires a prerequisite structure and ability to copy. These
+can be explained e.g. in the origins of life as chemical processes; the copying
+and mutation of genes. (Interesting recent studies show that life had to evolve
+at least twice -- two pairs of genomes had to come together to form proteins,
+chaotically tangled entities, which are the gears of life, providing it its
+play.)
 
 === Trauma
 
@@ -52,7 +53,8 @@ when to stop.
 
 === Ecstasy
 - Being outside of oneself
-- Key argument: This is the default. Self-awareness is not the default point of view.
+- Key argument: This is the default. Self-awareness is not the default point of
+  view.
 
 Self-awareness occurs precisely at the moment when our perceptual rules break
 down, when our symbolizing structures need to be updated.
@@ -65,14 +67,17 @@ when we are confronted with the traumatic.
 === Entanglement
 
 <noe-entanglement>
-Defined in #cite(<noeEntanglementHowArt2023a>). Loosely, entanglement is
-the situation we find ourselves in: our Being is essentially cultural.
-We coevolved with technology and art, and those shaped the way we see the world.
-But that relationship is both material and theoretical: it is traditional (mimesis; material)
-but subject to criticism and revision (difference; theoretical).
+Defined in #cite(<noeEntanglementHowArt2023a>). Loosely, entanglement is the
+situation we find ourselves in: our Being is essentially cultural. We coevolved
+with technology and art, and those shaped the way we see the world. But that
+relationship is both material and theoretical: it is traditional (mimesis;
+material) but subject to criticism and revision (difference; theoretical).
 
 "I use term 'entanglement' to refer to the ways in which what we are is changed
-by the work of reflection." #cite(<noeEntanglementHowArt2023a>, supplement: "p24")
+by the work of reflection." #cite(
+  <noeEntanglementHowArt2023a>,
+  supplement: "p24",
+)
 
 Noë does not give us a strong analytical definition of what the entanglement is.
 It's a vibe, a fuzzy concept. Could we make it distinct? Would that be something
@@ -85,11 +90,11 @@ fuzzy concepts are actually just _the_ way concepts work? -- quite possibly. It
 would then be a mistake to say that this is an exclusive feature of
 entanglement; its fuzziness, though, is certainly striking.) On fuzzy concepts
 see for example D&G's concepts of multiplicities in _A Thousand Plateaus,_ _What
-is Philosophy?_.
-#link("https://en.wikipedia.org/wiki/Fuzzy_concept#Philosophy")[(Wikipedia,
-  _Fuzzy Concept,_)] is pretty good. Especially relevant: defuzzification and
-fuzziness vs vaugeness. Entanglement is not vague, but it _is_ fuzzy. I
-especially appreciate the Wittgenstein quote.
+is Philosophy?_. #link(
+  "https://en.wikipedia.org/wiki/Fuzzy_concept#Philosophy",
+)[(Wikipedia, _Fuzzy Concept,_)] is pretty good. Especially relevant:
+defuzzification and fuzziness vs vaugeness. Entanglement is not vague, but it
+_is_ fuzzy. I especially appreciate the Wittgenstein quote.
 
 Noë explains what entanglement is by _showing,_ not telling. Because there is no
 telling. It is a fuzzy concept; he must proceed via family resemblance. (He does

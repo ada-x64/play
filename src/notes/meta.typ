@@ -30,13 +30,16 @@ On a prior thesis, and citations to Nguyen, Noë, and others
 - Network Aesthetics - Jagoda
 - ✅ Experimental Games - Jagoda #cite(<jagodaExperimentalGamesCritique2020>)
 - ✅ Rules of Play - Boluck & LeMieux #cite(<salentekinbasRulesPlayGame2004>)
-- Crisis in Eurpoean Sciences - Husserl #cite(<husserlCrisisEuropeanSciences1984>)
-- Philosophical Investigations - Wittgenstein #cite(<wittgensteinPhilosophischeUntersuchungenPhilosophical2010>)
+- Crisis in Eurpoean Sciences - Husserl #cite(
+    <husserlCrisisEuropeanSciences1984>,
+  )
+- Philosophical Investigations - Wittgenstein #cite(
+    <wittgensteinPhilosophischeUntersuchungenPhilosophical2010>,
+  )
 - ✅ Critique of Judgement - Kant #cite(<kantCritiqueJudgment2007>)
 - ✅ Birth of Tragedy - Nietzsche
 - Inner Experience - Bataille
-- Lacan lecture XI (6-9, 13-16) -
-  #link(
+- Lacan lecture XI (6-9, 13-16) - #link(
     "https://pi.dev/session/#c1cb7440d8d1b282863ce7822e44c394",
   )[primer] #cite(<lacanFourFundamentalConcepts1998>)
   - Possibly XX ch 6. Saint Teresa and feminine jouissance

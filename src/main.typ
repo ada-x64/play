@@ -10,10 +10,9 @@
 
 #outline() #hr
 
-#title("Notes")
+= Notes
 #include "notes/mod.typ"
 
-#title("Essays")
 #include "chapters/mod.typ"
 
-#bibliography("bib.yaml", style: "chicago-author-date")
+#bibliography("/src/lib/bib.yaml", style: "chicago-author-date")

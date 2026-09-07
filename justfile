@@ -7,16 +7,19 @@ gen_mods:
     shopt -s globstar
     echo "watching"
     while true; do
-        ./scripts/gen_mod.py ./src
+        ./scripts/gen_mod.py ./src/*/
         inotifywait -rq --include ".*\.typ$" -e create,delete,move ./src/
     done
 
+TYPSTYLE_ARGS := "-l 80 --wrap-text=fill"
+FIND := "find ./src/ -type f -name '*.typ' -print0"
+
 format:
-    find ./src/ -type f -name '*.typ' -print0 | xargs -0 -r typstyle -v -i -l 80
+    {{ FIND }} | xargs -0 -r typstyle -iv {{ TYPSTYLE_ARGS }}
 
 lint:
     tinymist lint ./src/main.typ --root . --font-path="./src/fonts"
 
 check:
-    find ./src/ -type f -name '*.typ' -print0 | xargs -0 -r typstyle --check -l 80
+    {{ FIND }} | xargs -0 -r typstyle --check {{ TYPSTYLE_ARGS }}
     just lint

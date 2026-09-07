@@ -1,8 +1,6 @@
 #import "/src/lib/quotes.typ" as quotes
 
-=== Play <disambiguation>
-
-==== Disambiguation
+== Play: A Disambiguation <disambiguation>
 
 Play has several meanings. The one I want to focus on is transformative play,
 the play of the metagame -- play which modifies the very rules of play. This
@@ -39,7 +37,7 @@ psychology of play or its place in culture in large, but rather focus on its
 role in our relationship to the Real (the unconscious, the noumenal, etc.), i.e.
 its ontological and epistemological significance.
 
-==== Taxonomy
+=== Taxonomy
 Play happens when free movement occurs within a rigid structure. Let's break
 that down. In what domains can play occur? What sort of structures give rise to
 play? What is 'free movement?'
@@ -81,6 +79,8 @@ nothingness from which all Being springs forth.
 Each of these accounts point toward a meta-level consciousness, something that
 is beyond the direct layer of perception. I take Albahari's term _witness
 consciousness_ to describe this higher-level perception.
+
+---
 
 + Structural rigidty
   - Mechanical play vs transformative play -- mechanical play occurs _within_
