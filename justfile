@@ -18,8 +18,5 @@ format:
     {{ FIND }} | xargs -0 -r typstyle -iv {{ TYPSTYLE_ARGS }}
 
 lint:
-    tinymist lint ./src/main.typ --root . --font-path="./src/fonts"
-
-check:
     {{ FIND }} | xargs -0 -r typstyle --check {{ TYPSTYLE_ARGS }}
-    just lint
+    tinymist lint ./src/main.typ --root . --font-path="./src/fonts"
